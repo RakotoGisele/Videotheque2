@@ -1,0 +1,66 @@
+body {
+    background-color: #11698e;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+.navbar {
+    background-color: #00303f;
+    color: #fff;
+    box-shadow: 3px 3px 3px #719fb0;
+}
+.navbar-toggler {
+    background-color: #11698e;
+}
+.navbarTogglerDemo02 {
+    background-color: #00303f;
+}
+.nav-link {
+    font-size: 1.2em;
+    color: #fff;
+}
+.btn {
+    color: #fff;
+}
+.titre {
+    padding-top: 2%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire {
+    background-color: #00303f;
+    text-align: center;
+    color: #11698e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 20%;
+}
+.film {
+    margin-bottom: 5%;
+}
+.genre {
+    margin-bottom: 5%;
+}
+.realisateur {
+    margin-bottom: 5%;
+}
+.acteur {
+    margin-bottom: 5%;
+}
+.miniature {
+    margin-bottom: 5%;
+}
+.description {
+    margin-bottom: 5%;
+}
+.ajouter {
+    margin-bottom: 10%;
+}
+.bg-primary {
+    background-color: #00303f !important;
+}
