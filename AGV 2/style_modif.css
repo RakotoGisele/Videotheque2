@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #11698e;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+.menu {
+    background-color: #00303f;
+    box-shadow: 3px 3px 3px #719fb0;
+}
+.menu_contenu {
+    display: inline-flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #11698e;
+}
+#accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding-left: 8%;
+}
+#bibliotheque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding-left: 8%;
+}
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boite {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+#formulaire {
+    background-color: #00303f;
+    box-shadow: 3px 3px 3px 3px #719fb0;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.film {
+    margin-bottom: 5%;
+}
+.genre {
+    margin-bottom: 5%;
+}
+.realisateur {
+    margin-bottom: 5%;
+}
+.acteur {
+    margin-bottom: 5%;
+}
+.miniature {
+    margin-bottom: 5%;
+}
+.synopsis {
+    margin-bottom: 5%;
+}
+.modifier {
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
